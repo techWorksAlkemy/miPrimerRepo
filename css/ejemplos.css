@@ -1,0 +1,115 @@
+/* .cajaEjemplo {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-bottom: solid 3px black;
+
+    background-image: linear-gradient(45deg, #000, #ffffff);
+    transform: translate(50px, 150px) rotateZ(45deg);
+
+}
+
+
+.cajaB{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-bottom: solid 3px black;
+    background-image: linear-gradient(45deg, #aa5500, #ffffff);
+    transform: rotate(45deg) translateX(200px) scale(1.25, 1.25 ) skew(20deg, 50deg);
+
+}
+
+.menu__item{
+    border: solid 3px green;
+    padding: 2px;
+    background-color: darkcyan;
+    transition: all .5s;
+   
+}
+
+.menu__item:hover{
+    background-color: aqua;
+    transform: scaleY(1.5);
+}
+
+@keyframes ampliar{
+    0%{ width:100px;}
+    25%{ width: 300px;}
+    50%{width:200px;background-color: grey;}
+    75%{width: 150px; }
+    100%{width:100px; background-color: green;}
+}
+
+.animado{
+    width:100px;
+    height:100px;
+    background-color: green;
+    animation: ampliar infinite ease-in 5s 0s;
+   animation-name:ampliar;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-out;
+    animation-duration: 5s;
+    animation-delay: 3s; 
+}
+ */
+/* 
+.loader{
+    width:120px;
+    height: 75px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.loader span{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin:auto;
+}
+
+.pelota{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    animation: rebotar .5s alternate infinite;
+    color: aliceblue;
+    text-align: center;
+}
+
+.pelota:nth-child(2){
+    animation-delay: .16s;
+}
+
+.pelota:nth-child(3){
+    animation-delay: .32s;
+}
+
+@keyframes rebotar{
+    from{
+        transform:scaleX(1.25)
+    }
+    to{
+        transform: scaleX(1) translateY(-50px);
+    }
+} */
+
+
+/* @keyframes shake{
+    25%{transform: translateX(5px);}
+    50%{transform: translateX(-6px);}
+    75%{transform: translateX(5px);}
+}
+
+input:invalid{
+    animation: shake .5s;
+} */
+
+
+.libreria{
+
+    animation-duration:5s ;
+    animation-delay: 1s;
+}
